@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .highlight {
+        @apply underline underline-offset-2 decoration-2;
+    }
+    .decoration-primary {
+        @apply decoration-indigo-600 dark:decoration-indigo-400;
+    }
+    .decoration-secondary {
+        @apply decoration-pink-600 dark:decoration-pink-400;
+    }
+}
